@@ -1,10 +1,32 @@
-- 👋 Hi, I’m @SofiaLimorenko
-- 👀 I’m interested in AI, rocket science, space, physics, mathematics.
-- 🌱 I’m currently learning create neural networks and make games using Unreal Engine 5.
-- 💞️ I’m looking to collaborate on people interested in AI or Android application development!.
-- 📫 How to reach me telegram -- https://t.me/ITgenius_l.
+```python
+# Привет! Я Соня 👩‍💻
 
-<!---
-SofiaLimorenko/SofiaLimorenko is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+class Developer:
+    def __init__(self):
+        self.name = "Соня"
+        self.specialization = ["Machine Learning", "Android Development", "AI Automation"]
+        self.current_focus = "Создание генеративных нейронных сетей и умных приложений"
+        self.favorite_tech = ["TensorFlow", "Keras", "PyTorch", "Java", "Kotlin"]
+        self.motto = "Кодить с умом и душой! 💡❤️"
+
+    def about_me(self):
+        return {
+            "🤖 Проекты": [
+                "Telegram-боты с AI",
+                "Приложения с голосовым управлением",
+                "Автоматизация повседневной жизни"
+            ],
+            "🎯 Миссия": "Создавать технологии, которые помогают людям",
+            "🎸 Хобби": ["Рок-музыка", "Игры", "Творческое программирование"]
+        }
+
+    def contact(self):
+        return {
+            "Telegram": "https://t.me/ITgenius_l",
+            "Email": "limorenkosona239@gmail.com"
+        }
+
+if __name__ == "__main__":
+    me = Developer()
+    print("Добро пожаловать на мой GitHub!")
+    print("Исследуйте проекты и давайте творить вместе 🚀")
