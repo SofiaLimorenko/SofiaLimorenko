@@ -1,23 +1,24 @@
-```python
-# Привет! Я Astrae 👩‍💻
+# Hello! I'm Astrae 👩‍💻
 
+
+```
 class Developer:
     def __init__(self):
         self.name = "Astrae"
         self.specialization = ["Machine Learning", "Android Development", "AI Automation"]
-        self.current_focus = "Создание генеративных нейронных сетей и умных приложений"
+        self.current_focus = "Creating generative neural networks and smart applications"
         self.favorite_tech = ["TensorFlow", "Keras", "PyTorch", "Java", "Kotlin"]
-        self.motto = "Кодить с умом и душой! 💡❤️"
+        self.motto = "Code with wisdom and heart! 💡❤️"
 
     def about_me(self):
         return {
-            "🤖 Проекты": [
-                "Telegram-боты с AI",
-                "Приложения с голосовым управлением",
-                "Автоматизация повседневной жизни"
+            "🤖 Projects": [
+                "AI-powered Telegram bots",
+                "Voice-controlled applications",
+                "Everyday life automation"
             ],
-            "🎯 Миссия": "Создавать технологии, которые помогают людям",
-            "🎸 Хобби": ["Рок-музыка", "Игры", "Творческое программирование"]
+            "🎯 Mission": "Creating technologies that help people",
+            "🎸 Hobbies": ["Rock music", "Gaming", "Creative programming"]
         }
 
     def contact(self):
@@ -27,5 +28,6 @@ class Developer:
 
 if __name__ == "__main__":
     me = Developer()
-    print("Добро пожаловать на мой GitHub!")
-    print("Исследуйте проекты и давайте творить вместе 🚀")
+    print("Welcome to my GitHub!")
+    print("Explore the projects and let's create together 🚀")
+```
