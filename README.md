@@ -1,9 +1,9 @@
 ```python
-# Привет! Я Соня 👩‍💻
+# Привет! Я Astrae 👩‍💻
 
 class Developer:
     def __init__(self):
-        self.name = "Соня"
+        self.name = "Astrae"
         self.specialization = ["Machine Learning", "Android Development", "AI Automation"]
         self.current_focus = "Создание генеративных нейронных сетей и умных приложений"
         self.favorite_tech = ["TensorFlow", "Keras", "PyTorch", "Java", "Kotlin"]
@@ -22,8 +22,7 @@ class Developer:
 
     def contact(self):
         return {
-            "Telegram": "https://t.me/ITgenius_l",
-            "Email": "limorenkosona239@gmail.com"
+            "Email": "astrae3301@gmail.com"
         }
 
 if __name__ == "__main__":
